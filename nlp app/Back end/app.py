@@ -9,7 +9,7 @@ from Utils import remove_html_tag, remove_accent_char, remove_stopwords_sentimen
     remove_special_characters, tokenizer_and_lemmatizer, tokenizer, expand_contractions
 
 app = Flask(__name__)
-cors = CORS(app, origins=["http://localhost:3000"], headers=['Content-Type'], expose_headers=['Access-Control-Allow-Origin'], supports_credentials=True)
+cors = CORS(app, headers=['Content-Type'], expose_headers=['Access-Control-Allow-Origin'], supports_credentials=True)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 
@@ -61,7 +61,7 @@ class LSTM(nn.Module):
 
 # text_input = ["it's a bad movie out of the time", "you're a murder, but you still have morality"]
 
-@app.route('/cls_lstm/', methods=['POST'], strict_slashes=False)
+@app.route('api/cls_lstm/', methods=['POST'], strict_slashes=False)
 def classification():
     text = request.get_json()
     input = text['text']
