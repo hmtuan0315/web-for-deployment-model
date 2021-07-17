@@ -29,7 +29,7 @@ function VerticalHeader(props) {
 const ListItem = (props) => {
     const name = props.name
     return ( 
-        <Link to = {name.url} >
+        <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to = {name.url} >
             <div className={styles.itemlist_bg}>{name.name}</div>
         </Link>
     );

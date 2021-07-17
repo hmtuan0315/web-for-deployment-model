@@ -12,6 +12,7 @@ import {
 function App() {
   return (
     <div className={styles.App}>
+    
         <Router>
           <VerticalHeader/>
           <Switch>

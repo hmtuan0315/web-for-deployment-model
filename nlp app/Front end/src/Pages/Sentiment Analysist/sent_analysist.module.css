@@ -1,5 +1,55 @@
 .background{
+    display: flex;
     padding-left: 8%;
-    padding-top: 5%;
+    padding-top: 4%;
+}
+
+
+.title{
+    font-weight: bold;
+    font-size: 36px;
+    color: #6ca858;
+    margin-bottom: 22px;
+}
+
+.normal_text{
+    font-weight: 500;
+    font: 1em Roboto Condensed;
+    font-size: 18px;
+    margin-bottom: 6px;
     
+}
+
+.small_text{
+    font-weight: 500;
+    font: 1em Roboto Condensed;
+    font-size: 16px;
+}
+
+.dropdown{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.image{
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 270px;
+    height: 400px;
+    width: 400px;
+    margin-bottom: auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.image_text{
+    font-size: 28px;
+    font:1.9em Roboto Condensed;
+    font-weight: 800;
+    color: #6ca858;
+    width: 300px;
+    margin-left: 45px;
 }

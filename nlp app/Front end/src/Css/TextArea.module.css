@@ -1,0 +1,29 @@
+.background{
+
+}
+
+.passage_title{
+    font-weight: bold;
+    font-size: 28px;
+    color: #6ca858;
+    margin-bottom: 14px;
+    margin-top: 30px;
+}
+
+textarea{
+    resize: none;
+    font-size: 20px;
+    border-color: #b8d5ae;
+    border-width: 1px;
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+
+}
+.text_area {
+    font-size: 18;
+}
